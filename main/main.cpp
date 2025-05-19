@@ -23,8 +23,9 @@
 /* These are built-in app examples in `esp-brookesia` library */
 #include "app_examples/phone/simple_conf/src/phone_app_simple_conf.hpp"
 #include "app_examples/phone/complex_conf/src/phone_app_complex_conf.hpp"
-#include "app_examples/phone/squareline/src/phone_app_squareline.hpp"
-
+// #include "app_examples/phone/squareline/src/phone_app_squareline.hpp"
+//#include "esp-brookesia-app/NewApp/src/new_app_conf.hpp"
+#include "esp-brookesia-app/WeatherApp/src/weather_app_conf.hpp"
 /*********************
  *      DEFINES
  *********************/
@@ -153,9 +154,16 @@ int main(int argc, char **argv)
     PhoneAppComplexConf *app_complex_conf = new PhoneAppComplexConf();
     ESP_BROOKESIA_CHECK_NULL_RETURN(app_complex_conf, 1, "Create app complex conf failed");
     ESP_BROOKESIA_CHECK_FALSE_RETURN((phone->installApp(app_complex_conf) >= 0), 1, "Install app complex conf failed");
-    PhoneAppSquareline *app_squareline = new PhoneAppSquareline();
-    ESP_BROOKESIA_CHECK_NULL_RETURN(app_squareline, 1, "Create app squareline failed");
-    ESP_BROOKESIA_CHECK_FALSE_RETURN((phone->installApp(app_squareline) >= 0), 1, "Install app squareline failed");
+    // PhoneAppSquareline *app_squareline = new PhoneAppSquareline();
+    // ESP_BROOKESIA_CHECK_NULL_RETURN(app_squareline, 1, "Create app squareline failed");
+    // ESP_BROOKESIA_CHECK_FALSE_RETURN((phone->installApp(app_squareline) >= 0), 1, "Install app squareline failed");
+
+    // NewAppConf *app_conf = new NewAppConf();
+    // ESP_BROOKESIA_CHECK_NULL_RETURN(app_conf, 1, "Create app conf failed");
+    //ESP_BROOKESIA_CHECK_FALSE_RETURN((phone->installApp(&NewAppConf::getInstance()) >= 0), 1, "Install app conf failed");
+
+    ESP_BROOKESIA_CHECK_FALSE_RETURN((phone->installApp(&WeatherAppConf::getInstance()) >= 0), 1, "Install app weather failed");
+
 
     /* Create a timer to update the clock */
     ESP_BROOKESIA_CHECK_NULL_RETURN(lv_timer_create(on_clock_update_timer_cb, 1000, phone), 1, "Create clock update timer failed");

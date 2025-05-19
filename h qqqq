@@ -1,0 +1,115 @@
+[33mcommit 7901e010acca936539125ec8545721d9100a26b6[m[33m ([m[1;36mHEAD -> [m[1;32mweatherApp[m[33m, [m[1;31morigin/weatherApp[m[33m)[m
+Author: xiongyunwei <328251553@qq.com>
+Date:   Mon May 19 11:49:34 2025 +0800
+
+    weather app
+
+[33mcommit 8c8e816214daf038b980b44dcddfd29d3889d802[m[33m ([m[1;32mtest[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 27177dc 7c05e1d
+Author: Zhongwei Liu <109257001+Lzw655@users.noreply.github.com>
+Date:   Tue Dec 24 10:09:27 2024 +0800
+
+    Merge pull request #6 from esp-arduino-libs/feat/update_brookesia
+    
+    feat(esp-brookesia): update to v0.4.2
+
+[33mcommit 7c05e1d39617c34d02f34d41a9b3b82b632b6291[m
+Author: Liu Zhongwei <liuzhongwei@espressif.com>
+Date:   Mon Dec 23 18:58:45 2024 +0800
+
+    feat(esp-brookesia): update to v0.4.2
+
+[33mcommit 9a3de32afa6051008cc915e789e9ae4f386883d7[m
+Merge: 5b7c4e3 6ee6b46
+Author: Zhongwei Liu <109257001+Lzw655@users.noreply.github.com>
+Date:   Sun Oct 27 14:12:25 2024 +0800
+
+    Merge pull request #5 from esp-arduino-libs/feat/update_brookesia
+    
+    feat(esp-brookesia): update to v0.4.1
+
+[33mcommit 27177dc5d0b65260f70db88829ab84fbbb948da8[m
+Merge: 5b7c4e3 6ee6b46
+Author: Zhongwei Liu <109257001+Lzw655@users.noreply.github.com>
+Date:   Sun Oct 27 14:12:25 2024 +0800
+
+    Merge pull request #5 from esp-arduino-libs/feat/update_brookesia
+    
+    feat(esp-brookesia): update to v0.4.1
+
+[33mcommit 6ee6b460a497f6d70d0fef1b8e84c53bc72610d8[m
+Author: Liu Zhongwei <liuzhongwei@espressif.com>
+Date:   Sun Oct 27 13:54:32 2024 +0800
+
+    feat(ci): add run test
+
+[33mcommit d236328824370a8a054acd58ed2d0c3e38714f61[m
+Author: Liu Zhongwei <liuzhongwei@espressif.com>
+Date:   Sun Oct 27 13:30:29 2024 +0800
+
+    feat(esp-brookesia): update to v0.4.1
+
+[33mcommit 5b7c4e3da1b519b3b22a7d14ae821c641cb2a417[m
+Merge: e8015dd a671180
+Author: Zhongwei Liu <109257001+Lzw655@users.noreply.github.com>
+Date:   Wed Sep 25 21:13:46 2024 +0800
+
+    Merge pull request #4 from esp-arduino-libs/feat/update_esp_ui
+    
+    feat(repo): rename from 'esp-ui' to 'esp-brookesia'
+
+[33mcommit a6711803419e357a08afcbb05800a5bda8b5a73c[m
+Author: Liu Zhongwei <liuzhongwei@espressif.com>
+Date:   Wed Sep 25 20:28:18 2024 +0800
+
+    feat(action): add build test action
+
+[33mcommit 7e15a2d9222179d6ab452bc3fc3d24f70642140c[m
+Author: Kevincoooool <33611679+Kevincoooool@users.noreply.github.com>
+Date:   Thu Sep 12 09:11:12 2024 +0800
+
+    feat(repo): use cmake as build tool
+    
+    Closes https://github.com/esp-arduino-libs/esp-brookesia-simulator_vscode/pull/3
+
+[33mcommit 59dc675722f8537e544301e50ef066f0fcba34a1[m
+Author: Liu Zhongwei <liuzhongwei@espressif.com>
+Date:   Thu Sep 19 11:06:21 2024 +0800
+
+    feat(repo): rename from 'esp-ui' to 'esp-brookesia'
+
+[33mcommit e8015dd958ca9ba7b619c7cfcc5f41d173bd9b00[m
+Merge: aed9281 608bcb5
+Author: Zhongwei Liu <109257001+Lzw655@users.noreply.github.com>
+Date:   Tue Aug 27 10:05:37 2024 +0800
+
+    Merge pull request #2 from esp-arduino-libs/feat/update_esp_ui
+    
+    feat(esp-ui): update
+    feat(esp-ui-stylesheet): add esp-ui-phone_320_240_stylesheet
+
+[33mcommit 608bcb5bec02ef847739bc90a6e397441413357c[m
+Author: Liu Zhongwei <liuzhongwei@espressif.com>
+Date:   Fri Aug 16 19:19:16 2024 +0800
+
+    feat(esp-ui): update
+    
+    feat(esp-ui-stylesheet): add esp-ui-phone_320_240_stylesheet
+
+[33mcommit aed92816d88e570fe8734de175b7b56e9e07ff35[m
+Author: Liu Zhongwei <liuzhongwei@espressif.com>
+Date:   Tue Aug 13 11:02:16 2024 +0800
+
+    feat(lv_drivers): update commit to support X11
+
+[33mcommit b84c359b87e4c14774b19cb1aa51c26ec43922a7[m
+Author: Liu Zhongwei <liuzhongwei@espressif.com>
+Date:   Thu May 23 17:08:55 2024 +0800
+
+    feat: init project and support esp-ui phone
+
+[33mcommit 38e67a02d607ae5f4d3e7734263c875d2a021eec[m
+Author: Zhongwei Liu <109257001+Lzw655@users.noreply.github.com>
+Date:   Thu May 23 16:10:57 2024 +0800
+
+    Create README.md
