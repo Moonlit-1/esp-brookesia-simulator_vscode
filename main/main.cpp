@@ -26,6 +26,8 @@
 // #include "app_examples/phone/squareline/src/phone_app_squareline.hpp"
 //#include "esp-brookesia-app/NewApp/src/new_app_conf.hpp"
 #include "esp-brookesia-app/WeatherApp/src/weather_app_conf.hpp"
+#include "esp-brookesia-app/ProfileApp/src/profile_app_conf.hpp"
+
 /*********************
  *      DEFINES
  *********************/
@@ -163,6 +165,7 @@ int main(int argc, char **argv)
     //ESP_BROOKESIA_CHECK_FALSE_RETURN((phone->installApp(&NewAppConf::getInstance()) >= 0), 1, "Install app conf failed");
 
     ESP_BROOKESIA_CHECK_FALSE_RETURN((phone->installApp(&WeatherAppConf::getInstance()) >= 0), 1, "Install app weather failed");
+    ESP_BROOKESIA_CHECK_FALSE_RETURN((phone->installApp(&profileAppConf::getInstance()) >= 0), 1, "Install app weather failed");
 
 
     /* Create a timer to update the clock */
